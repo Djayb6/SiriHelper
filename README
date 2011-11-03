@@ -1,0 +1,4 @@
+-- SiriHelper - Sort Siri files --
+
+
+- All you need to do is to change #define ROOT @"...." to match your configuration.
