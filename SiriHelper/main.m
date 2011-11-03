@@ -31,7 +31,7 @@ int main (int argc, const char * argv[])
            
             NSString *theInitialFileName = [[theURL path] lastPathComponent];
             
-            if (theInitialFileName==@"dyld_shared_cache_armv7")
+            if ([theInitialFileName isEqualToString:@"dyld_shared_cache_armv7"]) 
                 continue;
             
             
