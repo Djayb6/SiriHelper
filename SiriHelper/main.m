@@ -29,9 +29,6 @@ int main (int argc, const char * argv[])
         for (NSURL *theURL in theEnum) {
            
            
-            
-            NSError *error;
-            
             NSString *theInitialFileName = [[theURL path] lastPathComponent];
             
             if (theInitialFileName==@"dyld_shared_cache_armv7")
@@ -40,16 +37,16 @@ int main (int argc, const char * argv[])
             
             NSString *theDirectoriesAndFileName = [[theInitialFileName stringByReplacingOccurrencesOfString:@"#<" withString:@"/"] substringFromIndex:1];
            
-            
             NSString *theDirectories = [theDirectoriesAndFileName stringByDeletingLastPathComponent];
             
-           
+            NSError *error1=nil;
+            NSError *error2=nil;
             
+            [FM createDirectoryAtPath:theDirectories withIntermediateDirectories:YES attributes:nil error:&error1];
+            [FM moveItemAtPath:theInitialFileName toPath:theDirectoriesAndFileName error:&error2];
             
-            [FM createDirectoryAtPath:theDirectories withIntermediateDirectories:YES attributes:nil error:&error];
-            [FM moveItemAtPath:theInitialFileName toPath:theDirectoriesAndFileName error:&error];
-            if (error)
-            NSLog(@"%@", error);
+            if (error1) {NSLog(@"%@", error1);}
+            if (error2) {NSLog(@"%@", error2);}
             
                 
             
