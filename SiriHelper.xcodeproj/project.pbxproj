@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0893A99A145ADD5D00F689D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0893A999145ADD5D00F689D6 /* Foundation.framework */; };
+		0893A99D145ADD5D00F689D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0893A99C145ADD5D00F689D6 /* main.m */; };
+		0893A9A1145ADD5E00F689D6 /* SiriHelper.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0893A9A0145ADD5E00F689D6 /* SiriHelper.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0893A993145ADD5D00F689D6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0893A9A1145ADD5E00F689D6 /* SiriHelper.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0893A995145ADD5D00F689D6 /* SiriHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SiriHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		0893A999145ADD5D00F689D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0893A99C145ADD5D00F689D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0893A99F145ADD5D00F689D6 /* SiriHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SiriHelper-Prefix.pch"; sourceTree = "<group>"; };
+		0893A9A0145ADD5E00F689D6 /* SiriHelper.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SiriHelper.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0893A992145ADD5D00F689D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0893A99A145ADD5D00F689D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0893A98A145ADD5700F689D6 = {
+			isa = PBXGroup;
+			children = (
+				0893A99B145ADD5D00F689D6 /* SiriHelper */,
+				0893A998145ADD5D00F689D6 /* Frameworks */,
+				0893A996145ADD5D00F689D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0893A996145ADD5D00F689D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0893A995145ADD5D00F689D6 /* SiriHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0893A998145ADD5D00F689D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0893A999145ADD5D00F689D6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0893A99B145ADD5D00F689D6 /* SiriHelper */ = {
+			isa = PBXGroup;
+			children = (
+				0893A99C145ADD5D00F689D6 /* main.m */,
+				0893A9A0145ADD5E00F689D6 /* SiriHelper.1 */,
+				0893A99E145ADD5D00F689D6 /* Supporting Files */,
+			);
+			path = SiriHelper;
+			sourceTree = "<group>";
+		};
+		0893A99E145ADD5D00F689D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0893A99F145ADD5D00F689D6 /* SiriHelper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0893A994145ADD5D00F689D6 /* SiriHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0893A9A4145ADD5E00F689D6 /* Build configuration list for PBXNativeTarget "SiriHelper" */;
+			buildPhases = (
+				0893A991145ADD5D00F689D6 /* Sources */,
+				0893A992145ADD5D00F689D6 /* Frameworks */,
+				0893A993145ADD5D00F689D6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriHelper;
+			productName = SiriHelper;
+			productReference = 0893A995145ADD5D00F689D6 /* SiriHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0893A98C145ADD5700F689D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = djayb6;
+			};
+			buildConfigurationList = 0893A98F145ADD5800F689D6 /* Build configuration list for PBXProject "SiriHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0893A98A145ADD5700F689D6;
+			productRefGroup = 0893A996145ADD5D00F689D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0893A994145ADD5D00F689D6 /* SiriHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0893A991145ADD5D00F689D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0893A99D145ADD5D00F689D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0893A9A2145ADD5E00F689D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0893A9A3145ADD5E00F689D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0893A9A5145ADD5E00F689D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SiriHelper/SiriHelper-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0893A9A6145ADD5E00F689D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SiriHelper/SiriHelper-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0893A98F145ADD5800F689D6 /* Build configuration list for PBXProject "SiriHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0893A9A2145ADD5E00F689D6 /* Debug */,
+				0893A9A3145ADD5E00F689D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0893A9A4145ADD5E00F689D6 /* Build configuration list for PBXNativeTarget "SiriHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0893A9A5145ADD5E00F689D6 /* Debug */,
+				0893A9A6145ADD5E00F689D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0893A98C145ADD5700F689D6 /* Project object */;
+}
